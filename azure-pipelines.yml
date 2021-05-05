@@ -1,5 +1,9 @@
 trigger:
+<<<<<<< HEAD
 - '*'
+=======
+- '*'
+>>>>>>> 13b6665ec17e4d13716bde25eb0b476193775ad4
 
 pool:
   vmImage: 'ubuntu-18.04'
@@ -42,4 +46,8 @@ steps:
   inputs:
     command: 'build'
     arguments: '--no-restore --configuration Release'
+<<<<<<< HEAD
     projects: '**/*.csproj'
+=======
+    projects: '**/*.csproj'
+>>>>>>> 13b6665ec17e4d13716bde25eb0b476193775ad4
